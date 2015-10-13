@@ -1,0 +1,193 @@
+body{
+    background: #f4f3ca;
+}
+
+#header {
+    background: #3cc96f;
+    text-align: right;
+    color: #ffffff;
+    height: 90px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 115%;
+    padding: 5px;
+    width: 100%;
+}
+
+#regions_div {
+    color: #542916;
+    padding: 2%;
+    height: 400px;
+    width: 550px;
+    border: rgba(0, 0, 0, 1);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#piechart {
+    width: 550px;
+    height: 400px;
+}
+
+.chart_div {
+    color: #542916;
+    padding: 2%;
+    height: 400px;
+    width: 550px;
+    margin: 20px 20px 0 20px;
+    border: rgba(0, 0, 0, 1);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #297592;
+}
+
+#addedDescription {
+    position: absolute;
+    left: 700px;
+    width: 600px;
+    top: 175px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 125%;
+}
+
+.pieChart_div {
+    color: #542916;
+    padding: 2%;
+    height: 400px;
+    width: 550px;
+    margin: 20px 20px 0 20px;
+    border: rgba(0, 0, 0, 1);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #32e688;
+    position: absolute;
+    left: 700px;
+}
+
+#azDescription {
+    top: 500px;
+    position: absolute;
+    left: 700px;
+    margin: 0 20px 20px 20px;
+    background-color: #272e38;
+    padding: 2%;
+    width: 550px;
+    border: rgba(0, 0, 0, 1);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 125%;
+    color: #ffffff;
+}
+
+#Description {
+    margin: 0 20px 20px 20px;
+    background-color: #3cc96f;
+    padding: 2%;
+    width: 550px;
+    border: rgba(0, 0, 0, 1);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 125%;
+    color: #ffffff;
+}
+
+#resourcesFooter {
+    background-color: #3a463b;
+    height: 30px;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    padding: 10px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+#azFooter {
+    top: 745px;
+    background-color: #3a463b;
+    height: 30px;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#resources {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 125%;
+}
+
+#footer {
+    background-color: #3a463b;
+    height: 30px;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    padding: 10px;
+    bottom: 0px;
+}
+
+.offscreen {
+    position: absolute;
+    top: -30em;
+    left: -300em;
+}
+
+div#hmenu {
+    margin: 0;
+    padding: .3em 0 .3em 0;
+    background: #cfe0ad;
+    width: 100%;
+    text-align: center;
+}
+
+div#hmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#hmenu ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+div#hmenu ul a:link{
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: #004415;
+}
+
+div#hmenu ul a:visited{
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: #227755;
+}
+
+div#hmenu ul a:active{
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: #227755;
+}
+
+div#hmenu ul a:hover{
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: #f6f0cc;
+    background-color: #227755;
+}
